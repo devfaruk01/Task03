@@ -2,11 +2,12 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;    
+    font-family: NigaFont;
 }
 
 @font-face {
-    font-family: myFont;
-    src: url(Font.Font.ttf);
+    font-family: NigaFont;
+    src: url(../Font.ttf);
 }
 
 header {
@@ -19,7 +20,6 @@ nav {
     width: 71%;
     max-width: 1200;
     height: 80px;
-    border: 1px solid;
     margin: 0px auto;
     display: flex;
     justify-content: space-between;
@@ -59,4 +59,60 @@ nav .menu a {
 
 nav .menu {
     align-items: center;
+}
+
+
+
+/* hero section  */
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    margin: 46px 38px 0px 230px;
+}
+
+.content h1 {
+    font-size: 85px;
+    font-weight: 600;
+    color: #181818;
+    margin-top: 0px;
+}
+
+.content h2 {
+    font-size: 45px;
+    font-weight: 600;
+    color: #757575;
+    margin-bottom: 0px;
+}
+
+.content p {
+    font-size: 18px;
+    color: #757575;
+    width: 585px;
+}
+
+#btn button {
+    font-family: NigaFont;
+    font-size: 20px;
+    padding: 18px 17px;
+    margin: 20px 20px 0px 0px ;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn1 {
+    background-color: #FD6E0A;
+    color:  #ffffff;
+    border: none;
+}
+
+.btn2 {
+    color: #FD6E0A;
+    background-color: #ffffff;
+    border: #FD6E0A solid 2px;
+}
+
+.hardy #niga {
+    width: 586px;
+    margin-left: 300px;
 }
