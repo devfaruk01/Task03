@@ -109,3 +109,147 @@ h2 .r {
     font-weight: 700;
 }
 
+/* about section  */
+
+.about-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 130px 230px 130px 230px;
+}
+.about-main {
+    background-color: #FFF8F3;
+    padding: 120px 156px;
+    border-radius: 10px;
+}
+.About-child h2 {
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;margin-bottom: 35px;
+}
+.p-h3 p {
+    font-size: 18px;
+    font-weight: 200;
+    width: 800px;
+    margin-bottom: 30px;
+    color: #757575;
+}
+.About-child .child {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    text-align: center;
+}
+.About-child .child p {
+        color: #757575;
+        font-size: 20px;
+        font-weight: 100;
+}
+.About-child .child h4 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #181818;
+}
+
+
+/* what i do  */
+
+.what-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.what-main h3 {
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 30px;
+}
+.what-main .p {
+    font-size: 18px;
+    font-weight: 100;
+    color: #757575;
+    margin-bottom: 50px;
+}
+.what-card-main {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    align-items: center;
+}
+.what-card-main .card {
+    width: 267px;
+    height: 377px;
+    box-shadow: 10px 10px 50px rgba(5, 2, 2, 0.24);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+    border-radius: 5px;
+    margin-bottom: 200px;
+    padding: 30px;
+}
+.what-card-main .card img {
+    margin-bottom: 20px;
+}
+
+/* A summary of My Resume */
+
+.resume-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 400px;
+    padding: 0px 130px;
+
+}
+.box-parent .box {
+    border: 1px solid;
+}
+
+.box-parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 200px);
+    gap: 24px;
+}
+
+/* A summary of My Resume */
+
+.resume-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.resume-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.education-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    gap: 20px;
+}
+.education-main  {
+
+}
+.experience-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    gap: 20px;
+}
